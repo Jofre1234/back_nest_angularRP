@@ -17,9 +17,24 @@ git remote -m
 git add .
 
 git commit -m "proyecto base"
+
 ----
 
 -Para Forzar
 -----
 
  git push -u origin master
+ ---
+
+ # Moudules y Resource
+ ----
+
+nest g mo modules/auth 
+CRUD nest g res modules/users  
+----
+
+ # Controllers y servicios
+ ----
+
+ nest g co modules/auth
+ nest g s modules/auth
